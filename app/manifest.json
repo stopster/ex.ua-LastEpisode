@@ -40,7 +40,6 @@
     ],
     "permissions": [
         "tabs",
-        "management",
-        "http://ex.ua/*"
+        "http://www.ex.ua/*"
     ]
 }

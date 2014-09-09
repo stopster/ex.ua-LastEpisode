@@ -1,3 +1,16 @@
-body {
-    padding: 20px;
+.last-episode-popup {
+	font-size: 12px;
+    padding: 5px 7px;
+    background-color: #fff; 
+	background-image: linear-gradient(#efefef .1em, transparent .1em);
+	background-size: 100% 1.2em;
+}
+.last-episode-popup h1,
+.last-episode-popup h2, 
+.last-episode-popup h3,
+.last-episode-popup h4, 
+.last-episode-popup h5, 
+.last-episode-popup h6{
+	font-family: Verdana, Arial, sans-serif;
+	color: #555;
 }
