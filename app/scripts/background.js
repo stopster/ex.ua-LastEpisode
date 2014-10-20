@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(function (details) {
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 	// Show popup only on ex.ua website
 	if(tab.url.match(/^http:\/\/www\.ex\.ua/i)){
-	    chrome.pageAction.show(tabId);
+	    // chrome.pageAction.show(tabId);
 	}
 });
 

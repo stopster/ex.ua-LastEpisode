@@ -1,3 +1,8 @@
-'use strict';
+(function (){
+	'use strict';
 
-console.log('\'Allo \'Allo! Popup');
+	var sb = document.getElementById("sb-popup").contentWindow;
+	chrome.storage.local.get("last_url", function(obj){
+		sb.postMessage(obj, "*");
+	});
+})();

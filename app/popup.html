@@ -9,25 +9,14 @@
         <link href="styles/main.css" rel="stylesheet">
         <!-- endbuild -->
     </head>
-    <body class="last-episode-popup">
-        <h3>ex.ua Last episode</h3>
-        <div class="last-items-wrap">
-            <h4>Last time you watched:</h4>
-            <div class="item">
-                <a href="#">F.R.I.E.N.D.S.</a>
-            </div>
-            <div class="others">
-                <h4>You also watched:</h4>
-                <div class="item">
-                    <a href="#">Game of Thrones</a>
-                </div>
-            </div>
-        </div>
+    <body>
+    	<iframe src="sb_popup.html" id="sb-popup" seamless></iframe>
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
+        <script src="bower_components/knockout/dist/knockout.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
-
+        
         <!-- build:js scripts/popup.js -->
         <script src="scripts/popup.js"></script>
         <!-- endbuild -->

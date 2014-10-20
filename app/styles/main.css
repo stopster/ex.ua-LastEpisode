@@ -1,6 +1,6 @@
 .last-episode-popup {
+	width: 250px;
 	font-size: 12px;
-    padding: 5px 7px;
     background-color: #fff; 
 	background-image: linear-gradient(#efefef .1em, transparent .1em);
 	background-size: 100% 1.2em;
